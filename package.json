@@ -1,0 +1,28 @@
+{
+  "name": "logical-gradients-spec",
+  "version": "1.0.0",
+  "description": "Write gradients with flow-relative directions in CSS",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jonathantneal/logical-gradients-spec",
+  "homepage": "https://github.com/jonathantneal/logical-gradients-spec#readme",
+  "bugs": "https://github.com/jonathantneal/logical-gradients-spec/issues",
+  "main": "index.js",
+  "files": [
+    "index.html"
+  ],
+  "scripts": {
+    "start": "curl https://api.csswg.org/bikeshed/ -F file=@index.bs > index.html",
+    "test": "echint"
+  },
+  "keywords": [
+    "css",
+    "spec",
+    "linear-gradient",
+    "function",
+    "logical",
+    "flow",
+    "relative"
+  ],
+  "private": true
+}
